@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms Assignment</title>
+</head>
+<body style="font-family: Times New Roman;">
+    <div>
+        <h1>Online Registration Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td>
+                        <input type="password" name="confirm_password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <textarea name="address" rows="4" cols="25"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Profession:</td>
+                    <td>
+                        <select name="profession">
+                            <option selected>Select Profession</option>
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Engineer</option>
+                            <option>Doctor</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <h1>Visitors Information</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Email Address:</td>
+                    <td>
+                        <input type="text" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Interest:</td>
+                    <td>
+                        <input type="checkbox" name="research">Research
+                        <input type="checkbox" name="purchase">Purchase
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Occupation:</td>
+                    <td>
+                        <select name="occupation">
+                            <option>Student</option>
+                            <option selected>Employee</option>
+                            <option>Business</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Want us to send you junk emails?</td>
+                    <td>
+                        <input type="radio" name="junkemail">Absolutely
+
+                        <input type="radio" name="junkemail">No way man
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
